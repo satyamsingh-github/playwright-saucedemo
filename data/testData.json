@@ -1,0 +1,44 @@
+{
+  "urls": {
+    "base": "https://www.saucedemo.com/",
+    "inventory": "https://www.saucedemo.com/inventory.html",
+    "cart": "https://www.saucedemo.com/cart.html"
+  },
+  "products": [
+    {
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    {
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    },
+    {
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": "$15.99"
+    },
+    {
+      "name": "Sauce Labs Fleece Jacket",
+      "price": "$49.99"
+    },
+    {
+      "name": "Sauce Labs Onesie",
+      "price": "$7.99"
+    },
+    {
+      "name": "Test.allTheThings() T-Shirt (Red)",
+      "price": "$15.99"
+    }
+  ],
+  "expectedMessages": {
+    "lockedOut": "Epic sadface: Sorry, this user has been locked out.",
+    "invalidCredentials": "Epic sadface: Username and password do not match any user in this service",
+    "pageTitle": "Products"
+  },
+  "sortOptions": {
+    "az": "az",
+    "za": "za",
+    "lohi": "lohi",
+    "hilo": "hilo"
+  }
+}
