@@ -18,7 +18,7 @@ jobs:
     - name: Login to Azure
       uses: azure/login@v2
       with:
-        cred:${{secrets.AZURE_CONNECT}}  
+        creds:${{secrets.AZURE_CONNECT}}  
     - name: Run Playwright tests in Azure
       env:
         PLAYWRIGHT_SERVICE_URL: ${{vars.PLAYWRIGHT_SERVICE_URL}}
